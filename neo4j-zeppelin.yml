@@ -13,7 +13,7 @@ services:
     zeppelin:
         build:
             context: .
-        image: santand84/zeppelin:0.8.0
+        image: toanvtt/zeppelin:0.8.0
         networks:
             - host
         ports:
